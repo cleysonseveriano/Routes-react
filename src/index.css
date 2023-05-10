@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+header ul{
+  display: flex;
+  gap: 26px;
+  transition: all 200ms ease-in;
+}
+
+header li:hover{
+  color: black;
+}
+
+header a{
+  display: block;
+  line-height: 46px;
+  margin: 10px 0;
+  color: #FFF;
+}
+
+header .logo{
+  color: #FFF;
+  font-size: 26px;
+  font-weight: bold;
+}
